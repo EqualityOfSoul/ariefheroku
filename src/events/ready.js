@@ -4,11 +4,11 @@ module.exports = client => {
   console.log(`${client.user.username} Ready to playing with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   function randStatus() {
     let status = [
-      `Say m$help || Released Now!`,
+      `Say a,help || Released Now!`,
       `24/7 Online Forever`,
       `Hosted In Heroku`,
-      `Type m$help To Show Commands`,
-      `Type m$invite To Invite me`,
+      `Type a,help To Show Commands`,
+      `Type a,invite To Invite me`,
       `In Development.`,
       `On 👥 ${client.users.size} User`,
       `On 📻 ${client.channels.size} Channel`,
